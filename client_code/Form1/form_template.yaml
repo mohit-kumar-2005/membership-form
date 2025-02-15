@@ -1,13 +1,59 @@
 components:
-- components: []
+- components:
+  - layout_properties: {grid_position: 'UUGBDG,WDYDSO'}
+    name: label_2
+    properties: {text: Enter your Name}
+    type: Label
+  - layout_properties: {grid_position: 'RYGIFI,IROZPA'}
+    name: text_box_1
+    properties: {placeholder: Your Name}
+    type: TextBox
+  - layout_properties: {grid_position: 'PEOZCG,OVPYDV'}
+    name: label_1
+    properties: {text: Enter your CGPA}
+    type: Label
+  - layout_properties: {grid_position: 'VSKKRW,OLJOLN'}
+    name: text_box_2
+    properties: {placeholder: Your CGPA}
+    type: TextBox
+  - layout_properties: {grid_position: 'ZUADIZ,OTOMFY'}
+    name: label_3
+    properties: {text: Enter your mobile number}
+    type: Label
+  - layout_properties: {grid_position: 'KDQUKH,RRCVRW'}
+    name: text_box_3
+    properties: {placeholder: Your mobile number}
+    type: TextBox
+  - layout_properties: {grid_position: 'XZKUOO,XBWNZB'}
+    name: label_4
+    properties: {text: 'Do you need a good friend circle to study and focus on your career ?'}
+    type: Label
+  - layout_properties: {grid_position: 'SYKNJV,QSXFWW'}
+    name: check_box_1
+    properties: {checked: false, text: 'Yes'}
+    type: CheckBox
+  - event_bindings: {click: outlined_button_1_click}
+    layout_properties: {grid_position: 'UJLIGW,BYTWKY'}
+    name: outlined_button_1
+    properties: {align: left, role: outlined-button, text: Submit}
+    type: Button
   layout_properties: {slot: default}
   name: content_panel
   properties: {col_widths: '{}'}
   type: ColumnPanel
-- layout_properties: {slot: nav-right}
+- components:
+  - layout_properties: {}
+    name: label_6
+    properties: {align: right, bold: true, italic: true, text: Mohit Kumar, underline: true}
+    type: Label
+  layout_properties: {slot: nav-right}
   name: navbar_links
   properties: {}
   type: FlowPanel
+- layout_properties: {slot: title}
+  name: label_5
+  properties: {align: left, text: 'Join my group : We''ll study together & prepare for Hackathons, Internship and Placements!'}
+  type: Label
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate

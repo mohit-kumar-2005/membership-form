@@ -1,12 +1,34 @@
 allow_embedding: false
+db_schema:
+  friend:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: Name
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      name: CGPA
+      type: number
+    - admin_ui: {order: 2, width: 200}
+      name: Mobile number
+      type: number
+    - admin_ui: {order: 3, width: 200}
+      name: Need friend
+      type: bool
+    server: full
+    title: Friend
 dependencies: []
-name: M3 App 2
-package_name: M3_App_2
+metadata: {description: Friend's group website, logo_img: 'asset:web.jpg', title: 'Join my group : We''ll study together & prepare for Hackathons, Internship and Placement.'}
+name: Membership Form
+package_name: Membership_Form
 renamed: true
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
   server_version: python3-sandbox
   version: 2
-services: []
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
 startup_form: Form1

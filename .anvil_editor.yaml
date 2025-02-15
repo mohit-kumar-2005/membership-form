@@ -2,8 +2,10 @@ unique_ids:
   assets:
     standard-page.html: UJNO6TGDGSRHUKILOAIU7GV4LWFJFTWI
     theme.css: 5T5L7HNCEZN33BCFYMCCRBZHB27BUG3H
+    web.jpg: '1739614183637647059533764.6747'
   forms:
     Form1: EDAC3P5BBZ2X7BXNEJZQWLQWKVADYGD6
   modules: {}
   scripts: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1739615705690906993268212.2412'
